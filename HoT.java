@@ -1,9 +1,15 @@
 import java.util.Random;
+import java.util.Scanner;
 
 public class HoT 
 {
     public static void main(String[] args) 
     {
+        System.out.println("Who are you?");        
+        Scanner scanner = new Scanner(System.in);
+        String name = scanner.next();
+        System.out.println("Hello, "+name+"!\n");
+
         System.out.println("Tossing a coin...\n");
         Random coin1 = new Random();
         int c1 = coin1.nextInt(2);
