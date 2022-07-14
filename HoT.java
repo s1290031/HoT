@@ -30,5 +30,14 @@ public class HoT
         System.out.println("Heads: "+heads);
         System.out.println("Tails: "+tails+"\n");
 
+        if(heads>tails)
+        {
+                System.out.println("You won!");
+        }
+        else
+        {
+                System.out.println("You lost!");
+        }
+
     }
 }
